@@ -7,9 +7,15 @@
     <script src="vendor/three.min.js"></script>
     <script src="vendor/artoolkit.three.js"></script>
     <script src="ar-gif.min.js" defer></script>
+        <script>
+setTimeout(function () {
+  window.scrollTo(0, 1);
+}, 1000);
+        </script>
 </head>
 
 <body style="overflow: hidden; margin:0;">
+
     <ar-scene>
         <ar-marker patt="patts/hiro.patt">
             <ar-content src="gifs/money.gif" scale="1.5 1.5" position="0 2 2" rotation="90 0 0">
